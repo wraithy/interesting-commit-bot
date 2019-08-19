@@ -1,0 +1,36 @@
+{
+  "name": "interesting-commit-bot",
+  "version": "0.1.0",
+  "description": "Sends notifications when commits with interesting messages are pushed to git repos",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wraithy/interesting-commit-bot.git"
+  },
+  "author": "Andrew van Rooyen <wraith.andrew@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wraithy/interesting-commit-bot/issues"
+  },
+  "homepage": "https://github.com/wraithy/interesting-commit-bot#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "jest": "^24.9.0"
+  },
+  "jest": {
+    "transform": {
+      ".*": "babel-jest"
+    }
+  },
+  "dependencies": {
+    "babel-jest": "^24.9.0"
+  }
+}
